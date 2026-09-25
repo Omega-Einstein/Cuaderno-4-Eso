@@ -40,7 +40,7 @@ Video:
 
              
 <a href="[https://www.youtube.com/watch?v=2f6OHwZokGQ](https://youtu.be/5W0l83RhQ5U?si=DXJ5cS_R92CPFa6g)" target="_blank">
-<img src="https://img.youtube.com/vi/2f6OHwZokGQ/hqdefault.jpg" width="500">
+<img src="[https://img.youtube.com/vi/2f6OHwZokGQ/hqdefault.jpg](https://youtu.be/5W0l83RhQ5U?si=DXJ5cS_R92CPFa6g)" width="500">
 </a>
 
 
