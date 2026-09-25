@@ -3,3 +3,29 @@
 Esta practica se dedica a conseguir que dos diodos led se enciendan alternativamente, uno encendido y otro apagado, y despues de un tiempo asignado estos dos hagan lo opuesto, y asi sucesivamente.
 
 [Pincha aquí para ver la prueba en tinkercad]()
+
+
+Prueba en tinkercad:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Explicación del Código:
+
+
+
+
