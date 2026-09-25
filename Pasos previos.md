@@ -11,7 +11,7 @@ Prueba en tinkercad:
 
 
 <p align="center">
-<img src="Imágenes/ aqui tiens que poner la imagen" width="400" height="400" />
+<img src="Imágenes/ Código.PNG" width="400" height="400" />
 </p>
 
 
