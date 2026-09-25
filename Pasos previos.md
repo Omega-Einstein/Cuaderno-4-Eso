@@ -10,7 +10,9 @@ Prueba en tinkercad:
 
 
 
-
+<p align="center">
+<img src="Imágenes/xjdsfhudxzgghsaghczuhjzscgcyjs.PNG" width="400" height="400" />
+</p>
 
 
 
