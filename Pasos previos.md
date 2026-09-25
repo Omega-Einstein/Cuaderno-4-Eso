@@ -31,3 +31,12 @@ Explicación del Código:
 
 
 
+<p align="center">
+<img src="Imágenes/Captura de pantalla 2026-09-24 173010.png" width="400" height="400" />
+</p>
+
+
+
+
+
+
