@@ -7,8 +7,9 @@ Esta practica se dedica a conseguir que dos diodos led se enciendan alternativam
 
 Prueba en tinkercad:
 <p align="center">
-<img src="Imágenes/Placa.png" width="400" height="400" />
+<img src="imágenes/Placa.png" width="100" height="100" />
 </p>
+
 
 Explicación del Código:
 <p align="center">
