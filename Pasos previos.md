@@ -32,7 +32,7 @@ Explicación del Código:
 
 
 <p align="center">
-<img src="Imágenes/aqui tienes que poner la imagen" width="400" height="400" />
+<img src="Imágenes/Codigo.png" width="400" height="400" />
 </p>
 
 
