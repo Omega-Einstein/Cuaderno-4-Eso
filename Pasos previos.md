@@ -38,7 +38,8 @@ Explicación del Código:
 Video:
 
 
-                <a href="https://www.youtube.com/watch?v=2f6OHwZokGQ" target="_blank">
+             
+<a href="https://www.youtube.com/watch?v=2f6OHwZokGQ" target="_blank">
 <img src="https://img.youtube.com/vi/2f6OHwZokGQ/hqdefault.jpg" width="500">
 </a>
 
