@@ -13,5 +13,5 @@ Prueba en tinkercad:
 
 Explicación del Código:
 <p align="center">
-<img src="Imágenes/Código.PNG" width="400" height="400" />
+<img src="Imágenes/Codigo.PNG" width="400" height="400" />
 </p>
