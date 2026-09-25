@@ -1,4 +1,4 @@
-# RETO 1: Encendido alternativo de 2 diodos led.
+#RETO 1: Encendido alternativo de 2 diodos led.
 
 Esta practica consiste en el encendido alternativo de dos diodos led. El concepto es simple, mientras un diodo led esta apagado, el otro estará encendido, 
 despues de un tiempo establecido estos dos haran lo opuesto, y asi infinitamente.
