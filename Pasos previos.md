@@ -48,3 +48,7 @@ El pin 3 ahora se apaga (LOW), mientras que el 2 ahora es el encendido (HIGH)
 Otro delay de 400 milisegundos, y el loop se repite.
 
 # Reto 2
+
+<p align="center">
+<img src="Imágenes/placa_pulsador.PNG" width="400" height="400" />
+</p>
