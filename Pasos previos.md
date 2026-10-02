@@ -1,6 +1,6 @@
 # Reto 1: Encendido alternativo de dos diodos led.
 
-Esta practica se dedica a conseguir que dos diodos led se enciendan alternativamente, uno encendido y otro apagado, y despues de un tiempo asignado estos dos hagan lo opuesto, y asi sucesivamente.
+Esta practica se dedica a conseguir que **dos diodos led** se **enciendan alternativamente**, uno **encendido** y otro **apagado**, y despues de un tiempo asignado estos dos hagan lo **opuesto**, y asi **sucesivamente.**
 
 [Pincha aquí para ver la prueba en tinkercad](https://www.tinkercad.com/things/jdIYAWvcs1k-grand-elzing-migelo/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
 
@@ -10,19 +10,19 @@ Prueba en tinkercad:
 <img src="Imágenes/Placa.PNG" width="400" height="400" />
 </p>
 
-El circuito tiene un Arduino conectado a dos LEDs mediante una protoboard. El programa hace que los dos LEDs se enciendan y apaguen alternativamente cada 1 segundo.
+El **circuito** tiene un **Arduino** conectado a dos **diodos led** mediante cables en una **protoboard**. El programa hace que los dos **diodos led** se enciendan y apaguen alternativamente cada 400 milisegundos.
 
-El Arduino es el cerebro del circuito y controla los Leds.
+El **Arduino** es el **cerebro** del circuito y controla los Leds.
 
-La Protoboard sirve para montar y conectar los componentes sin soldar.
+La **Protoboard** sirve para **montar** y **conectar** los componentes sin soldar.
 
-Los leds se encienden cuando reciben corriente.
+Los **diodos leds** se **encienden** cuando reciben corriente y se apagan cuando no.
 
-La resistencia limita la corriente para proteger los Leds.
+La **resistencia limita** la corriente para proteger los Leds.
 
-Los cables conecta el Arduino con los diferentes componentes.
+Los **cables conectan** en el Arduino con los diferentes componentes.
 
-El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador.
+El **cable USB alimenta** el Arduino y permite cargar el programa desde el ordenador.
 
 
 
