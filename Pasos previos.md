@@ -5,7 +5,7 @@ Esta practica se dedica a conseguir que **dos diodos led** se **enciendan altern
 [Pincha aquí para ver la prueba en tinkercad](https://www.tinkercad.com/things/jdIYAWvcs1k-grand-elzing-migelo/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard)
 
 
-Prueba en tinkercad:
+## Prueba en tinkercad:
 <p align="center">
 <img src="Imágenes/Placa.PNG" width="400" height="400" />
 </p>
@@ -25,7 +25,7 @@ El **cable USB alimenta** el Arduino y permite cargar el programa desde el orden
 El **circuito** tiene un **Arduino** conectado a dos **diodos led** mediante cables en una **protoboard**. El programa hace que los dos **diodos led** se enciendan y apaguen alternativamente cada 400 milisegundos.
 
 
-Explicación del Código:
+## Explicación del Código:
 <p align="center">
 <img src="Imágenes/Codigo.PNG" width="400" height="400" />
 </p>
@@ -47,7 +47,7 @@ Otro **delay** de **400 milisegundos**, y el **loop** se **repite.**
 
 Este **segundo reto** se trata de un **diodo led** encendido siendo **apagado** al presionar un **pulsador NC (normalmente cerrado)**, 
 
-Imagen en tinkercad
+## Imagen en tinkercad
 <p align="center">
 <img src="Imágenes/placa_pulsador.PNG" width="400" height="400" />
 </p>
