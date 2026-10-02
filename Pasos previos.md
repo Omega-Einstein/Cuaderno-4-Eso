@@ -35,7 +35,7 @@ Explicación del Código:
 </p>
 
 
-El void setup es donde se declaran las variables. Los pines 2 y 3 están marcados como output.
+El void setup es donde se declaran las variables y solo se ejecuta una sola vez. Los pines 2 y 3 están marcados como output.
 
 El void loop es donde se ejecuta el código se repite de forma infinita.
 
@@ -49,7 +49,7 @@ Otro delay de 400 milisegundos, y el loop se repite.
 
 # Reto 2
 
-Este segundo reto se trata de un pulsador NC (normalmente cerrado),   
+Este segundo reto se trata de un diodo led encendido siendo apagado al presionar un pulsador NC (normalmente cerrado), 
 
 <p align="center">
 <img src="Imágenes/placa_pulsador.PNG" width="400" height="400" />
