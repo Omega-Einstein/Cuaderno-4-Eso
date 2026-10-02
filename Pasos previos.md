@@ -10,6 +10,24 @@ Prueba en tinkercad:
 <img src="Imágenes/Placa.PNG" width="400" height="400" />
 </p>
 
+El circuito tiene un Arduino conectado a dos LEDs mediante una protoboard. El programa hace que los dos LEDs se enciendan y apaguen alternativamente cada 1 segundo.
+
+El Arduino es el cerebro del circuito y controla los Leds.
+
+La Protoboard sirve para montar y conectar los componentes sin soldar.
+
+Los leds se encienden cuando reciben corriente.
+
+La resistencia limita la corriente para proteger los Leds.
+
+Los cables conecta el Arduino con los diferentes componentes.
+
+El cable USB alimenta el Arduino y permite cargar el programa desde el ordenador.
+
+
+
+El circuito consiste de una placa Arduino, una protoboard, dos diodos led, cables y una resistencia.
+
 
 Explicación del Código:
 <p align="center">
