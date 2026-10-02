@@ -51,3 +51,5 @@ Este **segundo reto** se trata de un **diodo led** encendido siendo **apagado** 
 <p align="center">
 <img src="Imágenes/placa_pulsador.PNG" width="400" height="400" />
 </p>
+
+El pulsador NC (normalmente cerrado) en reposo deja pasar corriente, pero al ser pulsado este lo interrumpe.
