@@ -10,8 +10,6 @@ Prueba en tinkercad:
 <img src="Imágenes/Placa.PNG" width="400" height="400" />
 </p>
 
-El **circuito** tiene un **Arduino** conectado a dos **diodos led** mediante cables en una **protoboard**. El programa hace que los dos **diodos led** se enciendan y apaguen alternativamente cada 400 milisegundos.
-
 El **Arduino** es el **cerebro** del circuito y controla los Leds.
 
 La **Protoboard** sirve para **montar** y **conectar** los componentes sin soldar.
@@ -24,9 +22,7 @@ Los **cables conectan** en el Arduino con los diferentes componentes.
 
 El **cable USB alimenta** el Arduino y permite cargar el programa desde el ordenador.
 
-
-
-El circuito consiste de una placa Arduino, una protoboard, dos diodos led, cables y una resistencia.
+El **circuito** tiene un **Arduino** conectado a dos **diodos led** mediante cables en una **protoboard**. El programa hace que los dos **diodos led** se enciendan y apaguen alternativamente cada 400 milisegundos.
 
 
 Explicación del Código:
@@ -35,17 +31,17 @@ Explicación del Código:
 </p>
 
 
-El void setup es donde se declaran las variables y solo se ejecuta una sola vez. Los pines 2 y 3 están marcados como output.
+El **void setup** es donde se declaran las variables y solo se ejecuta una sola vez. Los **pines 2 y 3** están marcados como output.
 
-El void loop es donde se ejecuta el código se repite de forma infinita.
+El **void loop** es donde se **ejecuta el código**, se repite de forma infinita en un loop.
 
-El pin 3 se enciende (HIGH) mientras que el 2 se apaga (LOW).
+El **pin 3** se **enciende (HIGH)** mientras que el **pin 2** se **apaga (LOW).**
 
-El delay hace una espera antes de seguir, en este caso la espera es de 400 milisegundos,
+El **delay** hace una **espera** antes de seguir, en este caso la espera es de **400 milisegundos.**
 
-El pin 3 ahora se apaga (LOW), mientras que el 2 ahora es el encendido (HIGH)
+El **pin 3** ahora se **apaga (LOW)**, mientras que el **pin 2** ahora es el que está **encendido (HIGH)**
 
-Otro delay de 400 milisegundos, y el loop se repite.
+Otro **delay** de **400 milisegundos**, y el **loop** se **repite.**
 
 # Reto 2
 
