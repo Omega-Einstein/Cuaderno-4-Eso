@@ -45,7 +45,7 @@ Otro **delay** de **400 milisegundos**, y el **loop** se **repite.**
 
 # Reto 2
 
-Este **segundo reto** se trata de un **diodo led** encendido siendo **apagado** al presionar un **pulsador NC (normalmente cerrado)**, 
+Este **segundo reto** se trata de un **diodo led** encendido siendo **apagado** al presionar un **pulsador NC (normalmente cerrado)**. 
 
 ## Imagen en tinkercad
 <p align="center">
