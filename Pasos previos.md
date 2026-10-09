@@ -35,6 +35,8 @@ El **void setup** es donde se declaran las variables y solo se ejecuta una sola 
 
 El **void loop** es donde se **ejecuta el código**, se repite de forma infinita en un loop.
 
+El **digitalWrite** sirve para enviar una señal de nivel **alto (HIGH)** **o bajo (LOW)** a un pin digital de la placa.
+
 El **pin 3** se **enciende (HIGH)** mientras que el **pin 2** se **apaga (LOW).**
 
 El **delay** hace una **espera** antes de seguir, en este caso la espera es de **400 milisegundos.**
@@ -53,3 +55,13 @@ Este **segundo reto** se trata de un **diodo led** encendido siendo **apagado** 
 </p>
 
 El pulsador NC (normalmente cerrado) en reposo deja pasar corriente, pero al ser pulsado este lo interrumpe.
+
+<p align="center">
+<img src="Imágenes/codigo_pulsador.PNG" width="400" height="400" />
+</p>
+
+**int** son variables cuyos **datos numericos** enteros **sin decimales.**
+
+El **digitalRead** es una función que **lee** el estado de un pin digital. 
+
+El **If** es un **condicional** que permite ejecutar codigo dependiendo si una condición es **verdadera o falsa.**
