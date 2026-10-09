@@ -65,3 +65,5 @@ El pulsador NC (normalmente cerrado) en reposo deja pasar corriente, pero al ser
 El **digitalRead** es una función que **lee** el estado de un pin digital. 
 
 El **If** es un **condicional** que permite ejecutar codigo dependiendo si una condición es **verdadera o falsa.**
+
+El codigo lee el estado de **estadoPULSADOR.** Si el estado de **estadoPULSADOR** es **alto (HIGH)**, este apagara el diodo led. Si el estado de estadoPULSADOR es **bajo (LOW)** este se encendera el diodo.
