@@ -1,4 +1,4 @@
-# Reto 1: Encendido alternativo de dos diodos led.
+# Reto 1: Encendido alternativo de dos diodos led
 
 Esta practica se dedica a conseguir que **dos diodos led** se **enciendan alternativamente**, uno **encendido** y otro **apagado**, y despues de un tiempo asignado estos dos hagan lo **opuesto**, y asi **sucesivamente.**
 
@@ -45,7 +45,7 @@ El **pin 3** ahora se **apaga (LOW)**, mientras que el **pin 2** ahora es el que
 
 Otro **delay** de **400 milisegundos**, y el **loop** se **repite.**
 
-# Reto 2
+# Reto 2 : Pulsador
 
 Este **segundo reto** se trata de un **diodo led** encendido siendo **apagado** al presionar un **pulsador NC (normalmente cerrado)**. 
 
@@ -67,3 +67,16 @@ El **digitalRead** es una función que **lee** el estado de un pin digital.
 El **If** es un **condicional** que permite ejecutar codigo dependiendo si una condición es **verdadera o falsa.**
 
 El codigo lee el estado de **estadoPULSADOR.** Si el estado de **estadoPULSADOR** es **alto (HIGH)**, este apagara el diodo led. Si el estado de estadoPULSADOR es **bajo (LOW)** este se encendera el diodo.
+
+# Reto 3 : Potenciómetro y monitor serie
+
+Este reto se trata de sacar el valor de un **potenciómetro**.
+
+Un **potenciómetro** es una resistencia variable, en este caso valores entre el numero 0-1023.
+
+Un **float** es un tipo de dato que almacenan numeros **con decimales.**
+
+**Serial.PrintIn( )** escribe un mensaje o valor en el **monitor serie.**
+
+# Reto 4 : Mapeado de datos del potenciometro
+# Reto 5 : PWN
