@@ -72,6 +72,10 @@ El codigo lee el estado de **estadoPULSADOR.** Si el estado de **estadoPULSADOR*
 
 Este reto se trata de sacar el valor de un **potenciómetro**.
 
+<p align="center">
+<img src="Imágenes/POTENCIOMETRO.PNG" width="400" height="400" />
+</p>
+
 Un **potenciómetro** es una resistencia variable, en este caso valores entre el numero 0-1023.
 
 Un **float** es un tipo de dato que almacenan numeros **con decimales.**
@@ -79,4 +83,13 @@ Un **float** es un tipo de dato que almacenan numeros **con decimales.**
 **Serial.PrintIn( )** escribe un mensaje o valor en el **monitor serie.**
 
 # Reto 4 : Mapeado de datos del potenciometro
+
+<p align="center">
+<img src="Imágenes/MAP.PNG" width="400" height="400" />
+</p>
+
 # Reto 5 : PWN
+
+<p align="center">
+<img src="Imágenes/hhhhhhhhhhh.PNG" width="400" height="400" />
+</p>
