@@ -161,4 +161,4 @@ Al empezar el **void loop** escribimos la distancia que recibimos en un rango de
 
 ## Video del reto:
 
-[![Ver video](https://i.ytimg.com/vi/65MpVmByAck/hqdefault.jpg)](https://youtube.com/shorts/65MpVmByAck)
+[![Ver video](Imágenes/videocaptura.jpg)](https://youtube.com/shorts/65MpVmByAck)
