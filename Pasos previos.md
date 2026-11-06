@@ -140,7 +140,7 @@ Hacemos que "entrada" sea el valor que obtengamos de el potenciómetro, cual val
 
 ## Video del reto:
 
-[![Ver vídeo](https://img.youtube.com/vi/QWJ9XPSI/0.jpg)](https://youtu.be/6E-QWJ9XPSI)
+[![Ver vídeo](https://img.youtube.com/vi/6E-QWJ9XPSI/0.jpg)](https://youtu.be/6E-QWJ9XPSI)
 
 # Reto 6 : Ultrasonido
 
