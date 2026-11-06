@@ -28,6 +28,7 @@ El **circuito** tiene un **Arduino** conectado a dos **diodos led** mediante cab
 
 [![Ver vídeo](https://img.youtube.com/vi/5W0l83RhQ5U/0.jpg)](https://www.youtube.com/watch?v=5W0l83RhQ5U)
 
+(Video hecho por Enrique Diego Noguera)
 
 ## Explicación del Código:
 <p align="center">
@@ -104,6 +105,8 @@ En este programa solo se busca el valor del potenciometro, leyendolo con un **an
 
 [![Ver vídeo](https://img.youtube.com/vi/yua4PBHdlDI/0.jpg)](https://youtu.be/yua4PBHdlDI)
 
+(Video hecho por Enrique Diego Noguera)
+
 # Reto 4 : Mapeado de datos del potenciometro
 
 Ahora con el valor del potenciometro que hemos conseguido anteriormente en el anterior reto vamos a **mapearlo**.
@@ -119,6 +122,8 @@ El **mapeo** es una tecnica para transformar un valor numerico en un rango princ
 ## Video del reto:
 
 [![Ver vídeo](https://img.youtube.com/vi/J4irpsk0bVs/0.jpg)](https://youtu.be/J4irpsk0bVs)
+
+(Video hecho por Enrique Diego Noguera)
 
 # Reto 5 : PWN
 
@@ -141,6 +146,8 @@ Hacemos que "entrada" sea el valor que obtengamos de el potenciómetro, cual val
 ## Video del reto:
 
 [![Ver vídeo](https://img.youtube.com/vi/6E-QWJ9XPSI/0.jpg)](https://youtu.be/6E-QWJ9XPSI)
+
+(Video hecho por Ramón Ruiz)
 
 # Reto 6 : Ultrasonido
 
@@ -165,3 +172,5 @@ Al empezar el **void loop** escribimos la distancia que recibimos en un rango de
 ## Video del reto:
 
 [![Ver video](Imágenes/videocaptura.jpg)](https://youtube.com/shorts/65MpVmByAck)
+
+(Video hecho por Enrique Diego Noguera)
