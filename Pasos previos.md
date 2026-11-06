@@ -24,11 +24,10 @@ El **cable USB alimenta** el Arduino y permite cargar el programa desde el orden
 
 El **circuito** tiene un **Arduino** conectado a dos **diodos led** mediante cables en una **protoboard**. El programa hace que los dos **diodos led** se enciendan y apaguen alternativamente cada 400 milisegundos.
 
-Video mostrandolo:
+## Video mostrandolo:
 <p align="center" width="100%">
   <video src="https://youtu.be/5W0l83RhQ5U?si=SAu2F6vwsPudWXPo" width="80%" controls></video>
 </p>
-
 
 
 ## Explicación del Código:
@@ -62,6 +61,8 @@ Este **segundo reto** se trata de un **diodo led** encendido siendo **apagado** 
 
 El pulsador NC (normalmente cerrado) en reposo deja pasar corriente, pero al ser pulsado este lo interrumpe.
 
+## Imagen del programa
+
 <p align="center">
 <img src="Imágenes/codigo_pulsador.PNG" width="400" height="400" />
 </p>
@@ -77,6 +78,8 @@ El codigo lee el estado de **estadoPULSADOR.** Si el estado de **estadoPULSADOR*
 # Reto 3 : Potenciómetro y monitor serie
 
 Este reto se trata de sacar el valor de un **potenciómetro** y revisarlo en el monitor serie.
+
+## Imagen del programa
 
 <p align="center">
 <img src="Imágenes/POTENCIOMETRO.PNG" width="400" height="400" />
@@ -98,6 +101,8 @@ En este programa solo se busca el valor del potenciometro, leyendolo con un **an
 
 Ahora con el valor del potenciometro que hemos conseguido anteriormente en el anterior reto vamos a **mapearlo**.
 
+## Imagen del programa
+
 <p align="center">
 <img src="Imágenes/MAP.PNG" width="400" height="400" />
 </p>
@@ -107,6 +112,8 @@ El **mapeo** es una tecnica para transformar un valor numerico en un rango princ
 # Reto 5 : PWN
 
 Finalmente, vamos a hacer que un diodo led se encienda progresivamente asignandole el valor que hemos mapeado anteriormente. El valor mapeado que habiamos declarado previamente era entre el 0 y 255, el rango de luminosidad que podemos ponerle a un diodo led.
+
+## Imagen del programa
 
 <p align="center">
 <img src="Imágenes/hhhhhhhhhhh.PNG" width="400" height="400" />
@@ -124,6 +131,8 @@ Hacemos que "entrada" sea el valor que obtengamos de el potenciómetro, cual val
 En esta practica usaremos un sensor ultrasónico, con este, si detecta algo a 15 centímetros o mas cerca del sensor este encenderá un diodo led.
 
 Un **sensor ultrasónico** es un dispositivo que puede medir la distancia que hay entre un objeto hasta el sensor mediante de ondas sonoras que son imposibles de escuchar por su alta frecuencia. El **trigger** es el pin de entrada, recibe la información que le enviemos, mientras que el **echo** es el que recibe las ondas.
+
+## Imagen del programa
 
 <p align="center">
 <img src="Imágenes/Captura (1).png" width="400" height="400" />
