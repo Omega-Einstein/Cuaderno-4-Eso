@@ -24,6 +24,12 @@ El **cable USB alimenta** el Arduino y permite cargar el programa desde el orden
 
 El **circuito** tiene un **Arduino** conectado a dos **diodos led** mediante cables en una **protoboard**. El programa hace que los dos **diodos led** se enciendan y apaguen alternativamente cada 400 milisegundos.
 
+Video mostrandolo:
+<p align="center" width="100%">
+  <video src="https://youtu.be/5W0l83RhQ5U?si=SAu2F6vwsPudWXPo" width="80%" controls></video>
+</p>
+
+
 
 ## Explicación del Código:
 <p align="center">
