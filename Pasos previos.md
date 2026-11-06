@@ -24,7 +24,7 @@ El **cable USB alimenta** el Arduino y permite cargar el programa desde el orden
 
 El **circuito** tiene un **Arduino** conectado a dos **diodos led** mediante cables en una **protoboard**. El programa hace que los dos **diodos led** se enciendan y apaguen alternativamente cada 400 milisegundos.
 
-## Video mostrandolo:
+## Video del reto:
 
 [![Ver vídeo](https://img.youtube.com/vi/5W0l83RhQ5U/0.jpg)](https://www.youtube.com/watch?v=5W0l83RhQ5U)
 
@@ -100,6 +100,10 @@ El **analogRead** es una función que **lee** el estado de un pin de entrada ana
 
 En este programa solo se busca el valor del potenciometro, leyendolo con un **analogRead** y asignar ese valor a la variable tipo **float** "valor", y luego escribir este valor en el monitor serie con un **Serial.PrintIn()** cada 500 milisegundos.
 
+## Video del reto:
+
+[![Ver vídeo](https://img.youtube.com/vi/yua4PBHdlDI/0.jpg)](https://youtu.be/yua4PBHdlDI)
+
 # Reto 4 : Mapeado de datos del potenciometro
 
 Ahora con el valor del potenciometro que hemos conseguido anteriormente en el anterior reto vamos a **mapearlo**.
@@ -111,6 +115,10 @@ Ahora con el valor del potenciometro que hemos conseguido anteriormente en el an
 </p>
 
 El **mapeo** es una tecnica para transformar un valor numerico en un rango principal a otro rango de forma proporcional. En vez de mandar el valor del potenciometro que hemos sacado principalmente mandamos el valor mapeado al monitor serie.
+
+## Video del reto:
+
+[![Ver vídeo](https://img.youtube.com/vi/J4irpsk0bVs/0.jpg)](https://youtu.be/J4irpsk0bVs)
 
 # Reto 5 : PWN
 
@@ -150,3 +158,7 @@ El **#include** permite importar bibliotecas externas o archivos para poder mane
 Lo primero de todo que hay en este programa es incluir la libreria del **sensor ultrasónico**, y a continuación definir las variables "TRIG_PIN** en el pin 12 y "ECHO_PIN" al 11, respectivamente a como cada uno este conectado en la placa. En el **void setup** establecemos la velocidad de el monitor serie a 9600 baudios, escribimos un mensaje opcional para el monitor serie "Aviso a 15 cm" y establecemos el **pin 13** como output, cual será el diodo.
 
 Al empezar el **void loop** escribimos la distancia que recibimos en un rango de centimetros, y a continuación añadir un mensaje opcional " cm" para aclararlo cuando leamos manualmente el monitor serie. Después de un **delay** de 100 milisegundos hay un condicional **if**, si la distancia que hemos obtenido en centímetros es menor que 15 el diodo led se encenderá, en lo contrario, si la distancia es mayor a 15 centímetros este se apagara.
+
+## Video del reto:
+
+[![Ver video](https://i.ytimg.com/vi/65MpVmByAck/hqdefault.jpg)](https://youtube.com/shorts/65MpVmByAck)
