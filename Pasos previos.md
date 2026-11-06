@@ -138,6 +138,9 @@ Primero asignamos el pin 9 como "LED9", ya que este será el diodo led que vamos
 
 Hacemos que "entrada" sea el valor que obtengamos de el potenciómetro, cual valor obtenemos con el **analogRead** del "P2". Asignamos que "DutyCycle" obtenga el numero que podemos conseguir mapeando los valores del potenciómetro a un rango de **0 a 255**, el rango que necesita el diodo. Después de hacer esto, con un **analogWrite** le asignamos el valor de "DutyCycle" a el diodo, y tambien escribir el valor en el monitor serie para comprobar si la información es correcta. El loop se va a repetir cada 500 milisegundos gracias a el **delay** que hemos puesto. 
 
+## Video del reto:
+
+[![Ver vídeo](https://img.youtube.com/vi/QWJ9XPSI/0.jpg)](https://youtu.be/6E-QWJ9XPSI)
 
 # Reto 6 : Ultrasonido
 
