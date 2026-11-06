@@ -26,9 +26,7 @@ El **circuito** tiene un **Arduino** conectado a dos **diodos led** mediante cab
 
 ## Video mostrandolo:
 
-<p align="center" width="100%">
-  <video src="https://www.youtube.com/watch?v=5W0l83RhQ5U" width="80%" controls></video>
-</p>
+[![Ver vídeo](https://img.youtube.com/vi/5W0l83RhQ5U/0.jpg)](https://www.youtube.com/watch?v=5W0l83RhQ5U)
 
 
 ## Explicación del Código:
