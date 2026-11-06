@@ -113,3 +113,12 @@ Primero asignamos el pin 9 como "LED9", ya que este será el diodo led que vamos
 Hacemos que "entrada" sea el valor que obtengamos de el potenciómetro, cual valor obtenemos con el **analogRead** del "P2". Asignamos que "DutyCycle" obtenga el numero que podemos conseguir mapeando los valores del potenciómetro a un rango de **0 a 255**, el rango que necesita el diodo. Después de hacer esto, con un **analogWrite** le asignamos el valor de "DutyCycle" a el diodo, y tambien escribir el valor en el monitor serie para comprobar si la información es correcta. El loop se va a repetir cada 500 milisegundos gracias a el **delay** que hemos puesto. 
 
 
+# Reto 6 : Ultrasonido
+
+En esta practica usaremos un sensor ultrasónico, con este, si detecta algo a 15 centímetros o mas cerca del sensor este encenderá un diodo led.
+
+Un **sensor ultrasónico** es un dispositivo que puede medir la distancia que hay entre un objeto hasta el sensor mediante de ondas sonoras que son imposibles de escuchar por su alta frecuencia.
+
+<p align="center">
+<img src="Imágenes/hhhhhhhhhhh.PNG" width="400" height="400" />
+</p>
