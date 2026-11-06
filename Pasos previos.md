@@ -10,7 +10,7 @@ Esta practica se dedica a conseguir que **dos diodos led** se **enciendan altern
 <img src="Imágenes/Placa.PNG" width="400" height="400" />
 </p>
 
-El **Arduino** es el **cerebro** del circuito y controla los Leds.
+La **placa Arduino** es el **cerebro** del circuito y controla los Leds.
 
 La **Protoboard** sirve para **montar** y **conectar** los componentes sin soldar.
 
@@ -80,7 +80,7 @@ Un **potenciómetro** es una resistencia variable, en este caso valores entre el
 
 Un **float** es un tipo de dato que almacenan numeros **con decimales.**
 
-Un **Serial.begin()** inicia la **comunicación serie** y establecer la velocidad de transmisión en **baudios**.
+Un **Serial.begin()** inicia la **comunicación serie** y establece la velocidad de transmisión en **baudios**.
 
 El **analogRead** es una función que **lee** el estado de un pin de entrada analogico. 
 
@@ -117,8 +117,14 @@ Hacemos que "entrada" sea el valor que obtengamos de el potenciómetro, cual val
 
 En esta practica usaremos un sensor ultrasónico, con este, si detecta algo a 15 centímetros o mas cerca del sensor este encenderá un diodo led.
 
-Un **sensor ultrasónico** es un dispositivo que puede medir la distancia que hay entre un objeto hasta el sensor mediante de ondas sonoras que son imposibles de escuchar por su alta frecuencia.
+Un **sensor ultrasónico** es un dispositivo que puede medir la distancia que hay entre un objeto hasta el sensor mediante de ondas sonoras que son imposibles de escuchar por su alta frecuencia. El **trigger** es el pin de entrada, recibe la información que le enviemos, mientras que el **echo** es el que recibe las ondas.
 
 <p align="center">
-<img src="Imágenes/hhhhhhhhhhh.PNG" width="400" height="400" />
+<img src="Imágenes/Captura (1).png" width="400" height="400" />
 </p>
+
+El **#include** permite importar bibliotecas externas o archivos para poder manejarlas en el programa. En este caso, el **#include** nos deja importar la biblioteca que nos permitirá usar un **sensor ultrasónico.**
+
+Lo primero de todo que hay en este programa es incluir la libreria del **sensor ultrasónico**, y a continuación definir las variables "TRIG_PIN** en el pin 12 y "ECHO_PIN" al 11, respectivamente a como cada uno este conectado en la placa. En el **void setup** establecemos la velocidad de el monitor serie a 9600 baudios, escribimos un mensaje opcional para el monitor serie "Aviso a 15 cm" y establecemos el **pin 13** como output, cual será el diodo.
+
+Al empezar el **void loop** escribimos la distancia que recibimos en un rango de centimetros, y a continuación añadir un mensaje opcional " cm" para aclararlo cuando leamos manualmente el monitor serie. Después de un **delay** de 100 milisegundos hay un condicional **if**, si la distancia que hemos obtenido en centímetros es menor que 15 el diodo led se encenderá, en lo contrario, si la distancia es mayor a 15 centímetros este se apagara.
