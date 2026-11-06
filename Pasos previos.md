@@ -111,3 +111,5 @@ Un **#define** es una directiva del preprocesador que se utiliza para crear cons
 Primero asignamos el pin 9 como "LED9", ya que este será el diodo led que vamos a cambiarle el brillo gracias al **potenciometro.** Despues de integrar las siguientes variables tipo **int** en el **void setup** marcamos LED9 como output.
 
 Hacemos que "entrada" sea el valor que obtengamos de el potenciómetro, cual valor obtenemos con el **analogRead** del "P2". Asignamos que "DutyCycle" obtenga el numero que podemos conseguir mapeando los valores del potenciómetro a un rango de **0 a 255**, el rango que necesita el diodo. Después de hacer esto, con un **analogWrite** le asignamos el valor de "DutyCycle" a el diodo, y tambien escribir el valor en el monitor serie para comprobar si la información es correcta. El loop se va a repetir cada 500 milisegundos gracias a el **delay** que hemos puesto. 
+
+
