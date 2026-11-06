@@ -70,7 +70,7 @@ El codigo lee el estado de **estadoPULSADOR.** Si el estado de **estadoPULSADOR*
 
 # Reto 3 : Potenciómetro y monitor serie
 
-Este reto se trata de sacar el valor de un **potenciómetro**.
+Este reto se trata de sacar el valor de un **potenciómetro** y revisarlo en el monitor serie.
 
 <p align="center">
 <img src="Imágenes/POTENCIOMETRO.PNG" width="400" height="400" />
@@ -80,7 +80,13 @@ Un **potenciómetro** es una resistencia variable, en este caso valores entre el
 
 Un **float** es un tipo de dato que almacenan numeros **con decimales.**
 
+Un **Serial.begin()** inicia la **comunicación serie** y establecer la velocidad de transmisión en **baudios**.
+
+El **analogRead** es una función que **lee** el estado de un pin de entrada analogico. 
+
 **Serial.PrintIn( )** escribe un mensaje o valor en el **monitor serie.**
+
+En este programa solo se busca el valor del potenciometro, leyendolo con un **analogRead** y asignar ese valor a la variable tipo **float** "valor", y luego escribir este valor en el monitor serie con un **Serial.PrintIn()**
 
 # Reto 4 : Mapeado de datos del potenciometro
 
