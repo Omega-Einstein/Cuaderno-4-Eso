@@ -81,6 +81,8 @@ El codigo lee el estado de **estadoPULSADOR.** Si el estado de **estadoPULSADOR*
 
 Este reto se trata de sacar el valor de un **potenciómetro** y revisarlo en el monitor serie.
 
+Este reto nos tomo a mi y a Ramón mas tiempo de lo esperado por cierto tema que no entendíamos en su momento, como por ejemplo que no podíamos recibir el valor del potenciómetro, frenando nuestro progreso y haciendo incapaz el avance. Por la ausencia del profesor no pudimos pedir ayuda, y aunque intentamos cambiar todos los materiales no pudimos resolverlo por nuestra cuenta. Despues de su regreso, finalmente pudimos resolver nuestro problema.
+
 ## Imagen del programa
 
 <p align="center">
