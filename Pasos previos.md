@@ -73,6 +73,8 @@ El **digitalRead** es una función que **lee** el estado de un pin digital.
 
 El **If** es un **condicional** que permite ejecutar codigo dependiendo si una condición es **verdadera o falsa.**
 
+## Explicación del codigo
+
 El codigo lee el estado de **estadoPULSADOR.** Si el estado de **estadoPULSADOR** es **alto (HIGH)**, este apagara el diodo led. Si el estado de estadoPULSADOR es **bajo (LOW)** este se encendera el diodo.
 
 # Reto 3 : Potenciómetro y monitor serie
@@ -94,6 +96,8 @@ Un **Serial.begin()** inicia la **comunicación serie** y establece la velocidad
 El **analogRead** es una función que **lee** el estado de un pin de entrada analogico. 
 
 **Serial.PrintIn( )** escribe un mensaje o valor en el **monitor serie.**
+
+## Explicación del codigo
 
 En este programa solo se busca el valor del potenciometro, leyendolo con un **analogRead** y asignar ese valor a la variable tipo **float** "valor", y luego escribir este valor en el monitor serie con un **Serial.PrintIn()** cada 500 milisegundos.
 
@@ -121,6 +125,8 @@ Finalmente, vamos a hacer que un diodo led se encienda progresivamente asignando
 
 Un **#define** es una directiva del preprocesador que se utiliza para crear constantes antes de que el código empiece.
 
+## Explicación del codigo
+
 Primero asignamos el pin 9 como "LED9", ya que este será el diodo led que vamos a cambiarle el brillo gracias al **potenciometro.** Despues de integrar las siguientes variables tipo **int** en el **void setup** marcamos LED9 como output.
 
 Hacemos que "entrada" sea el valor que obtengamos de el potenciómetro, cual valor obtenemos con el **analogRead** del "P2". Asignamos que "DutyCycle" obtenga el numero que podemos conseguir mapeando los valores del potenciómetro a un rango de **0 a 255**, el rango que necesita el diodo. Después de hacer esto, con un **analogWrite** le asignamos el valor de "DutyCycle" a el diodo, y tambien escribir el valor en el monitor serie para comprobar si la información es correcta. El loop se va a repetir cada 500 milisegundos gracias a el **delay** que hemos puesto. 
@@ -139,6 +145,8 @@ Un **sensor ultrasónico** es un dispositivo que puede medir la distancia que ha
 </p>
 
 El **#include** permite importar bibliotecas externas o archivos para poder manejarlas en el programa. En este caso, el **#include** nos deja importar la biblioteca que nos permitirá usar un **sensor ultrasónico.**
+
+## Explicación del codigo
 
 Lo primero de todo que hay en este programa es incluir la libreria del **sensor ultrasónico**, y a continuación definir las variables "TRIG_PIN** en el pin 12 y "ECHO_PIN" al 11, respectivamente a como cada uno este conectado en la placa. En el **void setup** establecemos la velocidad de el monitor serie a 9600 baudios, escribimos un mensaje opcional para el monitor serie "Aviso a 15 cm" y establecemos el **pin 13** como output, cual será el diodo.
 
