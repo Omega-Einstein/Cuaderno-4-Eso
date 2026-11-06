@@ -86,16 +86,25 @@ El **analogRead** es una función que **lee** el estado de un pin de entrada ana
 
 **Serial.PrintIn( )** escribe un mensaje o valor en el **monitor serie.**
 
-En este programa solo se busca el valor del potenciometro, leyendolo con un **analogRead** y asignar ese valor a la variable tipo **float** "valor", y luego escribir este valor en el monitor serie con un **Serial.PrintIn()**
+En este programa solo se busca el valor del potenciometro, leyendolo con un **analogRead** y asignar ese valor a la variable tipo **float** "valor", y luego escribir este valor en el monitor serie con un **Serial.PrintIn()** cada 500 milisegundos.
 
 # Reto 4 : Mapeado de datos del potenciometro
+
+Ahora con el valor del potenciometro que hemos conseguido anteriormente en el anterior reto vamos a **mapearlo**.
 
 <p align="center">
 <img src="Imágenes/MAP.PNG" width="400" height="400" />
 </p>
 
+El **mapeo** es una tecnica para transformar un valor numerico en un rango principal a otro rango de forma proporcional. En vez de mandar el valor del potenciometro que hemos sacado principalmente mandamos el valor mapeado al monitor serie.
+
 # Reto 5 : PWN
+
+Finalmente, vamos a hacer que un diodo led se encienda progresivamente asignandole el valor que hemos mapeado anteriormente. El valor mapeado que habiamos declarado previamente era entre el 0 y 255, el rango de luminosidad que podemos ponerle a un diodo led.
 
 <p align="center">
 <img src="Imágenes/hhhhhhhhhhh.PNG" width="400" height="400" />
 </p>
+
+Un **#define** es una directiva del preprocesador que se utiliza para crear constantes antes de que el código empiece.
+
