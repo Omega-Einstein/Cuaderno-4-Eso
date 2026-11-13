@@ -6,4 +6,4 @@ Soy Enrique Diego Noguera, tengo 16 años y este es mi cuaderno digital de Robó
 <img src="Imágenes/tomasz_mikolajczyk-integrated-circuit-441291.jpg" width="400" height="400" />
 </p>
 
-(Imagen por Tomasz_Mikolajczyk en Pixabay
+(Imagen por Tomasz_Mikolajczyk en Pixabay)
