@@ -51,6 +51,10 @@ Otro **delay** de **400 milisegundos**, y el **loop** se **repite.**
 
 Después de marcar el pin 2 y 3 como salida en el void setup, uno de los diodos led que se aplicaron en la placa se **encenderá** mientras que el otro se **apagara**, y cada 400 milisegundos estos permutan de estados.
 
+<p align="center">
+<img src="Imágenes/Diagrama reto1.PNG" width="400" height="400" />
+</p>
+
 # Reto 2 : Pulsador
 
 Este **segundo reto** se trata de un **diodo led** encendido siendo **apagado** al presionar un **pulsador NC (normalmente cerrado)**. 
@@ -78,6 +82,10 @@ El **If** es un **condicional** que permite ejecutar codigo dependiendo si una c
 
 El codigo lee el estado de **estadoPULSADOR.** Si el estado de **estadoPULSADOR** es **alto (HIGH)**, este apagara el diodo led. Si el estado de estadoPULSADOR es **bajo (LOW)** este se encendera el diodo.
 
+<p align="center">
+<img src="Imágenes/Diagrama reto 2.PNG" width="400" height="400" />
+</p>
+
 # Reto 3 : Potenciómetro y monitor serie
 
 Este reto se trata de sacar el valor de un **potenciómetro** y revisarlo en el monitor serie.
@@ -104,6 +112,10 @@ El **analogRead** es una función que **lee** el estado de un pin de entrada ana
 
 En este programa solo se busca el valor del potenciometro, leyendolo con un **analogRead** y asignar ese valor a la variable tipo **float** "valor", y luego escribir este valor en el monitor serie con un **Serial.PrintIn()** cada 500 milisegundos.
 
+<p align="center">
+<img src="Imágenes/Diagrama reto 3.PNG" width="400" height="400" />
+</p>
+
 ## Video del reto:
 
 [![Ver vídeo](https://img.youtube.com/vi/yua4PBHdlDI/0.jpg)](https://youtu.be/yua4PBHdlDI)
@@ -121,6 +133,14 @@ Ahora con el valor del potenciometro que hemos conseguido anteriormente en el an
 </p>
 
 El **mapeo** es una tecnica para transformar un valor numerico en un rango principal a otro rango de forma proporcional. En vez de mandar el valor del potenciometro que hemos sacado principalmente mandamos el valor mapeado al monitor serie.
+
+## Explicación del codigo
+
+En este programa solo se busca el valor del potenciómetro, leyendolo con un **analogRead** y asignar ese valor a la variable tipo **float** "valor", luego mapear el valor que hemos conseguido del potenciómetro entre **0 y 1023** a valores entre **0 y 255,** el resultado recibido se declara como "DutyCycle" y luego escribirlo en el monitor serie con un **Serial.PrintIn()** cada 500 milisegundos. 
+
+<p align="center">
+<img src="Imágenes/Diagrama reto 4.PNG" width="400" height="400" />
+</p>
 
 ## Video del reto:
 
@@ -145,6 +165,10 @@ Un **#define** es una directiva del preprocesador que se utiliza para crear cons
 Primero asignamos el pin 9 como "LED9", ya que este será el diodo led que vamos a cambiarle el brillo gracias al **potenciometro.** Despues de integrar las siguientes variables tipo **int** en el **void setup** marcamos LED9 como output.
 
 Hacemos que "entrada" sea el valor que obtengamos de el potenciómetro, cual valor obtenemos con el **analogRead** del "P2". Asignamos que "DutyCycle" obtenga el numero que podemos conseguir mapeando los valores del potenciómetro a un rango de **0 a 255**, el rango que necesita el diodo. Después de hacer esto, con un **analogWrite** le asignamos el valor de "DutyCycle" a el diodo, y tambien escribir el valor en el monitor serie para comprobar si la información es correcta. El loop se va a repetir cada 500 milisegundos gracias a el **delay** que hemos puesto. 
+
+<p align="center">
+<img src="Imágenes/Diagrama reto 5.PNG" width="400" height="400" />
+</p>
 
 ## Video del reto:
 
@@ -171,6 +195,10 @@ El **#include** permite importar bibliotecas externas o archivos para poder mane
 Lo primero de todo que hay en este programa es incluir la libreria del **sensor ultrasónico**, y a continuación definir las variables "TRIG_PIN** en el pin 12 y "ECHO_PIN" al 11, respectivamente a como cada uno este conectado en la placa. En el **void setup** establecemos la velocidad de el monitor serie a 9600 baudios, escribimos un mensaje opcional para el monitor serie "Aviso a 15 cm" y establecemos el **pin 13** como output, cual será el diodo.
 
 Al empezar el **void loop** escribimos la distancia que recibimos en un rango de centimetros, y a continuación añadir un mensaje opcional " cm" para aclararlo cuando leamos manualmente el monitor serie. Después de un **delay** de 100 milisegundos hay un condicional **if**, si la distancia que hemos obtenido en centímetros es menor que 15 el diodo led se encenderá, en lo contrario, si la distancia es mayor a 15 centímetros este se apagara.
+
+<p align="center">
+<img src="Imágenes/Diagrama reto 6.PNG" width="400" height="400" />
+</p>
 
 ## Video del reto:
 
