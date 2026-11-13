@@ -207,6 +207,7 @@ Al empezar el **void loop** escribimos la distancia que recibimos en un rango de
 (Video hecho por Enrique Diego Noguera)
 
 
+## Cabe aclarar:
 
 **Los siguientes retos no dirigidos no fueron creados por mi, fueron creados por Lorenzo Manuel Latorre Martínez.**
 
@@ -216,6 +217,36 @@ En este reto debemos de diseñar, montar y programar sistema que permita control
 
 ## Imagen del programa
 
+<p align="center">
+<img src="Imágenes/programa1.jpg" width="500" height="500" />
+</p>
+(codigo creado por Lorenzo Manuel Latorre Martínez)
+
+## Explicación del programa
+
+Lo primero se definen los pines del **sensor ultrasónico** y el **diodo led** además de las variables necesarias para almacenar valores.
+
+En el **void setup** se inicia la comunicación serie a 9600 baudios y se configura el **diodo led** como salida.
+
+Al empezar el **void loop** agarramos la distancia que recibimos con el **sensor ultrasónico** en un rango de centímetros y se mapean los valores a una distancia **0 a 40 cm** a un valor desde el **255 al 0**, haciendo que el diodo led brille más cuanto más cerca esté el objeto. Le asignamos el valor mapeado a el **diodo** para su brillo, y también escribir el valor en el monitor serie para comprobar si la información es correcta manualmente, y finalmente esperamos 100 milisegundos.
+
+**Cabe aclarar que a este código le falta el segundo diodo que pedía el enunciado del reto no dirigido en la tarea de classroom**
+
 # 6.2 Reto no dirigido numero 3
 
 El objetivo de este reto es añadir un potenciómetro para elegir la distancia a la que se activa el LED. Al girarlo, se cambia el límite de proximidad que recibe el sensor ultrasonico.
+
+# Imagen del programa
+
+<p align="center">
+<img src="Imágenes/programa2.jpg" width="600" height="600" />
+</p>
+(codigo creado por Lorenzo Manuel Latorre Martínez)
+
+## Explicación del programa
+
+Lo primero se definen los pines del **sensor ultrasónico**, el **diodo led** y el **potenciometro** además de las variables necesarias para almacenar valores
+
+En el **void setup** se inicia la comunicación serie a 9600 baudios y se configura el **diodo led** como salida.
+
+Al empezar el **void loop** leemos el valor del **potenciómetro** mediante **analogRead** y se mide la distancia que recibe el **sensor ultrasónico**. Mapeamos el valor recibimos del potenciómetro desde el **0 al 1023** a un rango entre **0 y 40** que será la cantidad en centímetros que también mandaremos al monitor serie. Con un condicional **if** detectamos si la distancia es menor a el limite que hemos establecido nosotros mismos con el potenciómetro, si es menor este encenderá el diodo led, si es mayor este se apagara. 
