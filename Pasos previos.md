@@ -205,3 +205,17 @@ Al empezar el **void loop** escribimos la distancia que recibimos en un rango de
 [![Ver video](Imágenes/videocaptura.jpg)](https://youtube.com/shorts/65MpVmByAck)
 
 (Video hecho por Enrique Diego Noguera)
+
+
+
+**Los siguientes retos no dirigidos no fueron creados por mi, fueron creados por Lorenzo Manuel Latorre Martínez.**
+
+# 6.1 Reto no dirigido numero 2
+
+En este reto debemos de diseñar, montar y programar sistema que permita controlar la luminosidad de dos ledes según la distancia que obtengamos con un sensor ultrasónico.
+
+## Imagen del programa
+
+# 6.2 Reto no dirigido numero 3
+
+El objetivo de este reto es añadir un potenciómetro para elegir la distancia a la que se activa el LED. Al girarlo, se cambia el límite de proximidad que recibe el sensor ultrasonico.
