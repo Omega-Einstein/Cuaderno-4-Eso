@@ -27,7 +27,7 @@ El **circuito** tiene un **Arduino** conectado a dos **diodos led** mediante cab
 
 (Video hecho por Enrique Diego Noguera)
 
-## Explicación del Código:
+## Imagen del codigo :
 <p align="center">
 <img src="Imágenes/Codigo.PNG" width="400" height="400" />
 </p>
@@ -46,6 +46,10 @@ El **delay** hace una **espera** antes de seguir, en este caso la espera es de *
 El **pin 3** ahora se **apaga (LOW)**, mientras que el **pin 2** ahora es el que está **encendido (HIGH)**
 
 Otro **delay** de **400 milisegundos**, y el **loop** se **repite.**
+
+## explicación del codigo
+
+Después de marcar el pin 2 y 3 como salida en el void setup, uno de los diodos led que se aplicaron en la placa se **encenderá** mientras que el otro se **apagara**, y cada 400 milisegundos estos permutan de estados.
 
 # Reto 2 : Pulsador
 
