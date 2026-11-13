@@ -47,12 +47,12 @@ El **pin 3** ahora se **apaga (LOW)**, mientras que el **pin 2** ahora es el que
 
 Otro **delay** de **400 milisegundos**, y el **loop** se **repite.**
 
-## explicación del codigo
+## Explicación del codigo
 
 Después de marcar el pin 2 y 3 como salida en el void setup, uno de los diodos led que se aplicaron en la placa se **encenderá** mientras que el otro se **apagara**, y cada 400 milisegundos estos permutan de estados.
 
 <p align="center">
-<img src="Imágenes/Diagrama reto1.PNG" width="400" height="400" />
+<img src="Imágenes/Diagrama reto 1.PNG" width="400" height="400" />
 </p>
 
 # Reto 2 : Pulsador
