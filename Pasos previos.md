@@ -124,7 +124,7 @@ El **mapeo** es una tecnica para transformar un valor numerico en un rango princ
 
 (Video hecho por Enrique Diego Noguera)
 
-# Reto 5 : PWN
+# Reto 5 : PWM
 
 Finalmente, vamos a hacer que un diodo led se encienda progresivamente asignandole el valor que hemos mapeado anteriormente. El valor mapeado que habiamos declarado previamente era entre el 0 y 255, el rango de luminosidad que podemos ponerle a un diodo led.
 
